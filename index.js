@@ -16,6 +16,12 @@ app.post('/', function (req, res) {
   res.render('home');
 });
 
+app.get('/t2', function (req, res) {
+
+  res.render('t2');
+
+});
+
 app.get('/t4', function (req, res) {
 	var retorno = "";
 
